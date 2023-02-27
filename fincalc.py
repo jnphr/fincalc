@@ -19,6 +19,12 @@ while True:
             rate = float(input(f"Enter the percentage interest rate, e.g. 8 for 8%: "))/100
             time = float(input("How many years do you plan on investing?: "))
 
+            if principal <= 0:
+                print("\nError: Negative investment amount.")
+                break
+            else:
+                pass
+
             # Allow the user to select between a compound or simple interest calculation.
             # Calculate and display the total return depending on the user's selection.
             while True:
@@ -46,6 +52,13 @@ while True:
             rate = float(input("Enter the annual interest rate, e.g. 3.5 for 3.5%: "))/100
             rate = rate/12
             time = int(input("Spread repayments over how many months?: "))
+
+            if value <= 0:
+                print("\nError: Negative loan value.")
+                break
+            else:
+                pass
+
             monthly_repayment = (rate * value) / (1 - (1 + rate) ** (-time))
             print(f"The amount payable monthly is {monthly_repayment:,.2f}")
             break
