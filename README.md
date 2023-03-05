@@ -1,6 +1,6 @@
 # Financial Calculator
 A simple financial calculator.\
-This program allows a user to view a simple or compound return on investment, or to plan repayments on a loan product.
+This program allows a user to view a simple or compound return on investment, or to plan repayment of a loan product.
 
 
 ## Installation
@@ -14,7 +14,8 @@ python fincalc.py
 
 ## Functionality
 
-The program is designed to be embedded on a website for ease of access cf. client acquisition, however it can also be developed to be used as part of an advisory service.
+The program is designed to be embedded on a website for ease of access cf. client acquisition.\
+The program can also be developed to be used as part of an advisory service.
 
 ## Development
 
